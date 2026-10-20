@@ -1,0 +1,16 @@
+info:
+  name: Create Well WITH User Token (403)
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: https://localhost:7263/api/wells
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

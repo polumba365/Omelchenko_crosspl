@@ -1,0 +1,6 @@
+@Omelchenko_crosspl_HostAddress = http://localhost:5048
+
+GET {{Omelchenko_crosspl_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

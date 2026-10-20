@@ -1,0 +1,16 @@
+info:
+  name: Login as Admin
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "  http://localhost:5048/api/auth/login"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
